@@ -16,3 +16,5 @@ The next:
     
     1.json - test1.feature - size >0
     2.json - test2.feature - size >0
+
+Please see screenshots into "screens" folder
