@@ -107,8 +107,14 @@
                             </glue>
                             <featuresDirectory>src/test/resources/</featuresDirectory>
                             <cucumberOutputDir>target/com/example/report</cucumberOutputDir>
-                            <format>json,rerun</format>
+                            <!--<format>json,rerun</format>-->
                             <parallelScheme>SCENARIO</parallelScheme>
+                            <plugins>
+                                <plugin>
+                                    <name>com.custom.json.JSONFormatter</name>
+                                    <extension>json</extension>
+                                </plugin>
+                            </plugins>
                         </configuration>
                     </execution>
                 </executions>
