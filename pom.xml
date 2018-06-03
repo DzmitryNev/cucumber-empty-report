@@ -108,7 +108,7 @@
                             <featuresDirectory>src/test/resources/</featuresDirectory>
                             <cucumberOutputDir>target/com/example/report</cucumberOutputDir>
                             <!--<format>json,rerun</format>-->
-                            <parallelScheme>SCENARIO</parallelScheme>
+                            <parallelScheme>FEATURE</parallelScheme>
                             <plugins>
                                 <plugin>
                                     <name>com.custom.json.JSONFormatter</name>

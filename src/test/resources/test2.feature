@@ -1,5 +1,6 @@
 Feature: test feature
 
-  Scenario: test scenario2
+  Scenario: test scenario3
     Given wait
     Then step fail
+

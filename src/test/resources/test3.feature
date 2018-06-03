@@ -1,9 +1,9 @@
 Feature: test feature
 
-  Scenario: test scenario1
+  Scenario: test scenario4
     Given wait
     Then step pass
 
-  Scenario: test scenario2
+  Scenario: test scenario4
     Given wait
-    Then step fail
+    Then step pass
